@@ -1,0 +1,2008 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeny Vegetables</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./fonts/icofont/icofont.min.css">
+    <link rel="stylesheet" href="./fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="./fonts/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="./vendor/slickslider/slick.min.css">
+    <link rel="stylesheet" href="vendor/niceselect/nice-select.min.css">
+    <link rel="stylesheet" href="//unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <a class="backtop btn fas fa-arrow-up" href="#"></a>
+
+    <div class="mobile-menu container">
+        <a href="index.html" title="Home Page"><i class="fas fa-home"></i><span>Home</span></a>
+        <button class="cate-btn" title="Category List"><i class="fas fa-list"></i><span>category</span></button>
+        <button class="cart-btn" title="Cartlist"><i
+                class="fas fa-shopping-basket"></i><span>cartlist</span><sup>9+</sup></button>
+        <a href="wishlist.html" title="Wishlist"><i class="fas fa-heart"></i><span>wishlist</span><sup>0</sup></a>
+        <a href="compare.html" title="Compare List"><i class="fas fa-random"></i><span>compare</span><sup>0</sup></a>
+    </div>
+
+    <aside class="Mcategory-sidebar">
+
+        <div class="Mcategory-header">
+            <h4 class="Mcategory-title"><i class="fas fa-align-left"></i><span>categories</span></h4>
+            <button class="Mcategory-close btn btn-white"><i class="icofont-close"></i></button>
+        </div>
+
+        <ul role="list" class="Mcategory-list">
+            <li class="Mcategory-list__item"><a class="Mcategory-link dropdown-link" href="#"><i
+                        class="flaticon-vegetable"></i><span>vegetables</span></a>
+                <ul role="list" class="dropdown-list">
+                    <li><a href="#">asparagus</a></li>
+                    <li><a href="#">broccoli</a></li>
+                    <li><a href="#">carrot</a></li>
+                </ul>
+            </li>
+
+            <li class="Mcategory-list__item">
+                <a class="Mcategory-link dropdown-link" href="#"><i
+                        class="flaticon-groceries"></i><span>groceries</span></a>
+                <ul role="list" class="dropdown-list">
+                    <li><a href="#">Grains & Bread</a></li>
+                    <li><a href="#">Dairy & Eggs</a></li>
+                    <li><a href="#">Oil & Fat</a></li>
+                </ul>
+            </li>
+
+            <li class="Mcategory-list__item"><a class="Mcategory-link dropdown-link" href="#"><i
+                        class="flaticon-fruit"></i><span>fruits</span></a>
+                <ul role="list" class="dropdown-list">
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Orange</a></li>
+                    <li><a href="#">Strawberry</a></li>
+                </ul>
+            </li>
+
+            <li class="Mcategory-list__item"><a class="Mcategory-link dropdown-link" href="#"><i
+                        class="flaticon-dairy-products"></i><span>dairy farm</span></a>
+                <ul role="list" class="dropdown-list">
+                    <li><a href="#">Egg</a></li>
+                    <li><a href="#">milk</a></li>
+                    <li><a href="#">butter</a></li>
+                </ul>
+            </li>
+            <li class="Mcategory-list__item">
+                <a class="Mcategory-link dropdown-link" href="#">
+                    <i class="flaticon-crab"></i><span>sea foods</span></a>
+                <ul role="list" class="dropdown-list">
+                    <li><a href="#">Lobster</a></li>
+                    <li><a href="#">Octopus</a></li>
+                    <li><a href="#">Shrimp</a></li>
+                </ul>
+            </li>
+
+            <li class="Mcategory-list__item"><a class="Mcategory-link dropdown-link" href="#"><i
+                        class="flaticon-salad"></i><span>diet foods</span></a>
+                <ul role="list" class="dropdown-list">
+                    <li><a href="#">Salmon</a></li>
+                    <li><a href="#">Potatoes</a></li>
+                    <li><a href="#">Greens</a></li>
+                </ul>
+            </li>
+
+            <li class="Mcategory-list__item"><a class="Mcategory-link dropdown-link" href="#"><i
+                        class="flaticon-dried-fruit"></i><span>dry foods</span></a>
+                <ul role="list" class="dropdown-list">
+                    <li><a href="#">noodles</a></li>
+                    <li><a href="#">Powdered milk</a></li>
+                    <li><a href="#">nut & yeast</a></li>
+                </ul>
+            </li>
+
+            <li class="Mcategory-list__item"><a class="Mcategory-link dropdown-link" href="#"><i
+                        class="flaticon-fast-food"></i><span>fast foods</span></a>
+                <ul role="list" class="dropdown-list">
+                    <li><a href="#">mango</a></li>
+                    <li><a href="#">plumsor</a></li>
+                    <li><a href="#">raisins</a></li>
+                </ul>
+            </li>
+
+            <li class="Mcategory-list__item"><a class="Mcategory-link dropdown-link" href="#"><i
+                        class="flaticon-cheers"></i><span>drinks</span></a>
+                <ul role="list" class="dropdown-list">
+                    <li><a href="#">Wine</a></li>
+                    <li><a href="#">Juice</a></li>
+                    <li><a href="#">Water</a></li>
+                </ul>
+            </li>
+
+            <li class="Mcategory-list__item"><a class="Mcategory-link dropdown-link" href="#"><i
+                        class="flaticon-beverage"></i><span>coffee</span></a>
+                <ul role="list" class="dropdown-list">
+                    <li><a href="#">Cappuchino</a></li>
+                    <li><a href="#">Espresso</a></li>
+                    <li><a href="#">Latte</a></li>
+                </ul>
+            </li>
+
+            <li class="Mcategory-list__item"><a class="Mcategory-link dropdown-link" href="#"><i
+                        class="flaticon-barbecue"></i><span>meats</span></a>
+                <ul role="list" class="dropdown-list">
+                    <li><a href="#">Meatball</a></li>
+                    <li><a href="#">Sausage</a></li>
+                    <li><a href="#">Poultry</a></li>
+                </ul>
+            </li>
+
+            <li class="Mcategory-list__item"><a class="Mcategory-link dropdown-link" href="#"><i
+                        class="flaticon-fish"></i><span>fishes</span></a>
+                <ul class="dropdown-list">
+                    <li><a href="#">Agujjim</a></li>
+                    <li><a href="#">saltfish</a></li>
+                    <li><a href="#">pazza</a></li>
+                </ul>
+            </li>
+
+        </ul>
+        <div class="Mcategory-footer">
+            <p>All Rights Reserved by <a href="#">Mironcoder</a></p>
+        </div>
+    </aside>
+    <aside class="Mcart-sidebar">
+
+        <div class="Mcart-header">
+            <div class="Mcart-total"><i class="fas fa-shopping-basket"></i><span>total item (5)</span></div>
+            <button class="Mcart-close btn btn-white"><i class="icofont-close"></i></button>
+        </div>
+
+        <ul role="list" class="Mcart-list">
+            <li class="Mcart-item">
+                <div class="cart-media"><a href="#"><img src="images/product/01.jpg" alt="product"></a><button
+                        class="cart-delete"><i class="far fa-trash-alt"></i></button></div>
+                <div class="cart-info-group">
+                    <div class="cart-info">
+                        <h6><a href="product-single.html">existing product name</a></h6>
+                        <p>Unit Price - $8.75</p>
+                    </div>
+                    <div class="cart-action-group">
+                        <div class="product-action"><button class="action-minus btn btn-white" title="Quantity Minus"><i
+                                    class="icofont-minus"></i></button><input class="action-input"
+                                title="Quantity Number" type="text" name="quantity" value="1"><button
+                                class="action-plus btn btn-white" title="Quantity Plus"><i
+                                    class="icofont-plus"></i></button></div>
+                        <h6>$56.98</h6>
+                    </div>
+                </div>
+            </li>
+            <li class="Mcart-item">
+                <div class="cart-media"><a href="#"><img src="images/product/02.jpg" alt="product"></a><button
+                        class="cart-delete"><i class="far fa-trash-alt"></i></button></div>
+                <div class="cart-info-group">
+                    <div class="cart-info">
+                        <h6><a href="product-single.html">existing product name</a></h6>
+                        <p>Unit Price - $8.75</p>
+                    </div>
+                    <div class="cart-action-group">
+                        <div class="product-action"><button class="action-minus btn btn-white" title="Quantity Minus"><i
+                                    class="icofont-minus"></i></button><input class="action-input"
+                                title="Quantity Number" type="text" name="quantity" value="1"><button
+                                class="action-plus btn btn-white" title="Quantity Plus"><i
+                                    class="icofont-plus"></i></button></div>
+                        <h6>$56.98</h6>
+                    </div>
+                </div>
+            </li>
+            <li class="Mcart-item">
+                <div class="cart-media"><a href="#"><img src="images/product/03.jpg" alt="product"></a><button
+                        class="cart-delete"><i class="far fa-trash-alt"></i></button></div>
+                <div class="cart-info-group">
+                    <div class="cart-info">
+                        <h6><a href="product-single.html">existing product name</a></h6>
+                        <p>Unit Price - $8.75</p>
+                    </div>
+                    <div class="cart-action-group">
+                        <div class="product-action"><button class="action-minus btn btn-white" title="Quantity Minus"><i
+                                    class="icofont-minus"></i></button><input class="action-input"
+                                title="Quantity Number" type="text" name="quantity" value="1"><button
+                                class="action-plus btn btn-white" title="Quantity Plus"><i
+                                    class="icofont-plus"></i></button></div>
+                        <h6>$56.98</h6>
+                    </div>
+                </div>
+                </div>
+            </li>
+            <li class="Mcart-item">
+                <div class="cart-media"><a href="#"><img src="images/product/04.jpg" alt="product"></a><button
+                        class="cart-delete"><i class="far fa-trash-alt"></i></button></div>
+                <div class="cart-info-group">
+                    <div class="cart-info">
+                        <h6><a href="product-single.html">existing product name</a></h6>
+                        <p>Unit Price - $8.75</p>
+                    </div>
+                    <div class="cart-action-group">
+                        <div class="product-action"><button class="action-minus btn btn-white" title="Quantity Minus"><i
+                                    class="icofont-minus"></i></button><input class="action-input"
+                                title="Quantity Number" type="text" name="quantity" value="1"><button
+                                class="action-plus btn btn-white" title="Quantity Plus"><i
+                                    class="icofont-plus"></i></button></div>
+                        <h6>$56.98</h6>
+                    </div>
+                </div>
+            </li>
+            <li class="Mcart-item">
+                <div class="cart-media"><a href="#"><img src="images/product/05.jpg" alt="product"></a><button
+                        class="cart-delete"><i class="far fa-trash-alt"></i></button></div>
+                <div class="cart-info-group">
+                    <div class="cart-info">
+                        <h6><a href="product-single.html">existing product name</a></h6>
+                        <p>Unit Price - $8.75</p>
+                    </div>
+                    <div class="cart-action-group">
+                        <div class="product-action"><button class="action-minus btn btn-white" title="Quantity Minus"><i
+                                    class="icofont-minus"></i></button><input class="action-input"
+                                title="Quantity Number" type="text" name="quantity" value="1"><button
+                                class="action-plus btn btn-white" title="Quantity Plus"><i
+                                    class="icofont-plus"></i></button></div>
+                        <h6>$56.98</h6>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <div class="Mcart-footer"><button class="coupon-btn">Do you have a coupon code?</button>
+            <form class="coupon-form"><input type="text" placeholder="Enter your coupon code"><button class="btn"
+                    type="submit"><span>apply</span></button></form><a class="cart-checkout-btn btn"
+                href="checkout.html"><span class="checkout-label">Proceed to Checkout</span><span
+                    class="checkout-price">$369.78</span></a>
+        </div>
+    </aside>
+
+
+
+    <div class="header-top">
+        <div class="container flex align-center justify-sb ">
+            <p>Welcome to Ecomart in Your Dream Online Store!</p>
+
+            <div class="header-top--selection flex">
+                <div class="lang">
+                    <i class="icofont-world"></i>
+                    <select name="language" class="ht-select" id="">
+                        <option value="english" selected>English</option>
+                        <option value="Gujarati">Gujarati</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                </div>
+                <hr>
+                <div>
+                    <i class="icofont-money"></i>
+                    <select name="curencyType" class="ht-select" id="">
+                        <option value="Doller" selected>INR</option>
+                        <option value="Gujarati">Pound</option>
+                        <option value="Hindi">Dollar</option>
+                    </select>
+                </div>
+            </div>
+
+            <ul role="list" class="header-top__list flex">
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Need Help</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="container flex align-center justify-sb">
+            <a href="index.html" class="logo-link" aria-label="Greeny Logo"><img src="./images/logo.png" class="logo"
+                    alt="greeny logo"></a>
+            <div class="user"><button class="flex align-center"><img src="./images/user.png"
+                        alt="user"><span>Join</span></button>
+            </div>
+            <form action="" class="flex">
+                <input type="text" placeholder="Search Here.....">
+                <button><i class="fas fa-search"></i></button>
+            </form>
+            <div class="header-widget flex">
+                <a href="" title="compare list"><i class="fas fa-random"></i><sup>0</sup></a>
+                <a href="" title="wish list"><i class="fas fa-heart"></i><sup>0</sup></a>
+                <a class="header-cart" title="cart"><button><i
+                            class="fas fa-shopping-basket"></i><sup>9+</sup></button></a>
+                <div class="flex">
+                    <span>Total Price</span>
+                    <small>$345.00</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="primary-nav">
+        <div class="container">
+            <div class="primary_nav__content flex align-center justify-sb">
+                <ul role="list" class="primary-nav__list flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Authentic</a></li>
+                    <li><a href="#">Blogs</a></li>
+                </ul>
+                <div class="nav-more-info flex align-center justify-sb">
+                    <div class="flex align-center justify-center">
+                        <i class="icofont-ui-touch-phone"></i>
+                        <div>
+                            <p>Call Us</p>
+                            <p class="fw-bold">(+880) 183 8288 389</p>
+                        </div>
+                    </div>
+                    <div class="flex align-center justify-center">
+                        <i class="icofont-ui-email"></i>
+                        <div>
+                            <p>Email Us</p>
+                            <p class="fw-bold">support@example.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="hero">
+        <ul class="slider slider-side-arrow">
+            <li class="hero-banner hero-banner-1">
+                <div class="container">
+                    <img src="./images/home/index/01.png" alt="">
+                    <div class="flex-coloumn">
+                        <h1 class="fw-bold capitalize">free home delivery within 24 hours now.</h1>
+                        <p>Lorem ipsum dolor consectetur adipisicing elit modi consequatur eaque expedita porro
+                            necessitatibus eveniet voluptatum quis pariatur Laboriosam molestiae architecto
+                            excepturi</p>
+                        <div class="banner-btn flex">
+                            <a href="#" class="btn"><i class="fas fa-shopping-basket"></i><span>shop now</span></a>
+                            <a href="#" class="btn btn-white"><i class="icofont-sale-discount"></i><span>get
+                                    offer</span></a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="hero-banner  hero-banner-2">
+                <div class="container flex align-center justify-center">
+                    <div class="flex-coloumn">
+                        <h1 class="fw-bold capitalize">free home delivery within 24 hours now.</h1>
+                        <p>Lorem ipsum dolor consectetur adipisicing elit modi consequatur eaque expedita porro
+                            necessitatibus eveniet voluptatum quis pariatur Laboriosam molestiae architecto
+                            excepturi</p>
+                        <div class="banner-btn flex">
+                            <a href="#" class="btn"><i class="fas fa-shopping-basket"></i><span>shop now</span></a>
+                            <a href="#" class="btn btn-white"><i class="icofont-sale-discount"></i><span>get
+                                    offer</span></a>
+                        </div>
+                    </div>
+                    <img src="./images/home/index/02.png" alt="">
+
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section suggestion-slider container">
+        <ul class="sug_slick_slider slider-side-arrow">
+            <li>
+                <a class="sug_card" href="#">
+                    <img src="./images/suggest/01.jpg" alt="sug 1">
+                    <p>vegetables <span>34 items</span></p>
+                </a>
+            </li>
+            <li>
+                <a class="sug_card" href="#">
+                    <img src="./images/suggest/02.jpg" alt="sug 2">
+                    <p>fruits <span>89 items</span></p>
+                </a>
+            </li>
+            <li>
+                <a class="sug_card" href="#">
+                    <img src="./images/suggest/03.jpg" alt="sug 3">
+                    <p>groceries <span>45 items</span></p>
+                </a>
+            </li>
+            <li>
+                <a class="sug_card" href="#">
+                    <img src="./images/suggest/04.jpg" alt="sug 3">
+                    <p>dairy farm <span>83 items</span></p>
+                </a>
+            </li>
+            <li>
+                <a class="sug_card" href="#">
+                    <img src="./images/suggest/05.jpg" alt="sug 3">
+                    <p>sea foods <span>40 items</span></p>
+                </a>
+            </li>
+            <li>
+                <a class="sug_card" href="#">
+                    <img src="./images/suggest/06.jpg" alt="sug 3">
+                    <p>vegan foods <span>57 items</span></p>
+                </a>
+            </li>
+            <li>
+                <a class="sug_card" href="#">
+                    <img src="./images/suggest/07.jpg" alt="sug 3">
+                    <p>dry foods <span>23 items</span></p>
+                </a>
+            </li>
+            <li>
+                <a class="sug_card" href="#">
+                    <img src="./images/suggest/08.jpg" alt="sug 3">
+                    <p>fast foods <span>97 items</span></p>
+                </a>
+            </li>
+        </ul>
+        </div>
+    </section>
+
+    <section class="section recent-item">
+        <div class="container">
+            <div>
+                <h2 class="section-title text-center">Recently Sold Items</h2>
+            </div>
+            <div class="product">
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text sale">Sale</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/01.jpg" alt="pr 1"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text sale">Sale</label><label
+                                class="label-text new">New</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/02.jpg" alt="pr 2"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text sale">Sale</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/03.jpg" alt="pr 3"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text sale">Sale</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/04.jpg" alt="pr 4"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text sale">Sale</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/05.jpg" alt="pr 5"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text sale">Sale</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/06.jpg" alt="pr 6"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text sale">Sale</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/07.jpg" alt="pr 7"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text sale">Sale</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/08.jpg" alt="pr 8"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text sale">Sale</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/09.jpg" alt="pr 9"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text sale">Sale</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/10.jpg" alt="pr 10"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex align-center justify-center">
+                <button class="btn btn-white uppercase"><i class="fas fa-eye"></i>show more</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section promo container">
+        <div class="promo__img">
+            <a href="#"><img src="./images/promo/home/03.jpg" alt="promo"></a>
+        </div>
+    </section>
+
+    <section class="section featured-item">
+        <div class="container">
+            <div>
+                <h2 class="section-title text-center capitalize">our featured items</h2>
+            </div>
+            <div class="features">
+
+                <div class="feature__card">
+                    <div class="feature__card-media">
+                        <div class="feature-label"><label class="label-text feature">feature</label></div>
+                        <button class="future-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="feature-image" href="#"><img src="./images/product/09.jpg" alt="pr 1"></a>
+
+                        <div class="feature-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="feature__card-info">
+                        <p class="feature_name capitalize"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <div class="feature_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3 Reviews)</a>
+                        </div>
+
+                        <p class="feature_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <p class="feature__card-desc">Lorem ipsum dolor sit consectetur adipisicing xpedita dicta amet
+                            olor ut eveniet commodi...</p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class="feature__card">
+                    <div class="feature__card-media">
+                        <div class="feature-label"><label class="label-text feature">feature</label></div>
+                        <button class="future-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="feature-image" href="#"><img src="./images/product/10.jpg" alt="pr 10"></a>
+
+                        <div class="feature-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="feature__card-info">
+                        <p class="feature_name capitalize"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <div class="feature_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3 Reviews)</a>
+                        </div>
+
+                        <p class="feature_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <p class="feature__card-desc">Lorem ipsum dolor sit consectetur adipisicing xpedita dicta amet
+                            olor ut eveniet commodi...</p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class="feature__card">
+                    <div class="feature__card-media">
+                        <div class="feature-label"><label class="label-text feature">feature</label></div>
+                        <button class="future-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="feature-image" href="#"><img src="./images/product/11.jpg" alt="pr 11"></a>
+
+                        <div class="feature-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="feature__card-info">
+                        <p class="feature_name capitalize"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <div class="feature_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3 Reviews)</a>
+                        </div>
+
+                        <p class="feature_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <p class="feature__card-desc">Lorem ipsum dolor sit consectetur adipisicing xpedita dicta amet
+                            olor ut eveniet commodi...</p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class="feature__card">
+                    <div class="feature__card-media">
+                        <div class="feature-label"><label class="label-text feature">feature</label></div>
+                        <button class="future-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="feature-image" href="#"><img src="./images/product/12.jpg" alt="pr 12"></a>
+
+                        <div class="feature-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="feature__card-info">
+                        <p class="feature_name capitalize"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <div class="feature_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3 Reviews)</a>
+                        </div>
+
+                        <p class="feature_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <p class="feature__card-desc">Lorem ipsum dolor sit consectetur adipisicing xpedita dicta amet
+                            olor ut eveniet commodi...</p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class="feature__card">
+                    <div class="feature__card-media">
+                        <div class="feature-label"><label class="label-text feature">feature</label></div>
+                        <button class="future-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="feature-image" href="#"><img src="./images/product/13.jpg" alt="pr 13"></a>
+
+                        <div class="feature-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="feature__card-info">
+                        <p class="feature_name capitalize"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <div class="feature_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3 Reviews)</a>
+                        </div>
+
+                        <p class="feature_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <p class="feature__card-desc">Lorem ipsum dolor sit consectetur adipisicing xpedita dicta amet
+                            olor ut eveniet commodi...</p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class="feature__card">
+                    <div class="feature__card-media">
+                        <div class="feature-label"><label class="label-text feature">feature</label></div>
+                        <button class="future-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="feature-image" href="#"><img src="./images/product/14.jpg" alt="pr 14"></a>
+
+                        <div class="feature-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="feature__card-info">
+                        <p class="feature_name capitalize"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <div class="feature_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3 Reviews)</a>
+                        </div>
+
+                        <p class="feature_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <p class="feature__card-desc">Lorem ipsum dolor sit consectetur adipisicing xpedita dicta amet
+                            olor ut eveniet commodi...</p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex align-center justify-center">
+                <button class="btn btn-white uppercase"><i class="fas fa-eye"></i>show more</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section countdown-sec">
+        <div class="container">
+            <div class="countdown-desc">
+                <h2 class="section-title uppercase text-center">special discount offer for vegetable items</h2>
+                <p class="text-center">Reprehenderit sed quod autem molestiae aut modi minus veritatis iste dolorum
+                    suscipit quis
+                    voluptatum fugiat mollitia quia minima</p>
+                <div class="countdown-clock">
+                    <p class="countdown-time"><span>01</span><small class="capitalize">days</small></p>
+                    <p class="countdown-time"><span>02</span><small class="capitalize">hours</small></p>
+                    <p class="countdown-time"><span>03</span><small class="capitalize">minutes</small></p>
+                    <p class="countdown-time"><span>04</span><small class="capitalize">seconds</small></p>
+                </div>
+                <a href="#" class="btn"><i class="fas fa-shopping-basket"></i><span>shop now</span></a>
+            </div>
+            <div class="countdown-image">
+                <img src="./images/countdown.png" alt="countdown image">
+                <p><span>20%</span><span class="uppercase">off</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section collected-items">
+        <div class="container">
+            <div>
+                <h2 class="section-title text-center capitalize">collected new items</h2>
+            </div>
+            <ul class="new-collection-slider slider-side-arrow">
+
+                <li>
+                    <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                        <div class="product__card-media">
+                            <div class="product-label"><label class="label-text sale">Sale</label></div>
+                            <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                            <a class="product-image" href="#"><img src="./images/product/15.jpg" alt="pr 15"></a>
+                            <div class="product-widget">
+                                <a href="#" title="Product Compare" class="fas fa-random"></a>
+                                <a href="#" title="Product Video" class="fas fa-play"></a>
+                                <a href="#" title="Product View" class="fas fa-eye"></a>
+                            </div>
+                        </div>
+                        <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                            <div class="pr_rating">
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <a class="text-deco--none" href="">(3)</a>
+                            </div>
+                            <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh
+                                    green
+                                    chilis</a></p>
+                            <p class="product_price">
+                                <del>$34</del><span>$28<small>/piece</small></span>
+                            </p>
+                            <button class="btn btn-white btn-add"><i
+                                    class="fas fa-shopping-basket"></i><span>Add</span></button>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                        <div class="product__card-media">
+                            <div class="product-label"><label class="label-text sale">Sale</label><label
+                                    class="label-text new">New</label></div>
+                            <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                            <a class="product-image" href="#"><img src="./images/product/16.jpg" alt="pr 16"></a>
+                            <div class="product-widget">
+                                <a href="#" title="Product Compare" class="fas fa-random"></a>
+                                <a href="#" title="Product Video" class="fas fa-play"></a>
+                                <a href="#" title="Product View" class="fas fa-eye"></a>
+                            </div>
+                        </div>
+                        <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                            <div class="pr_rating">
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <a class="text-deco--none" href="">(3)</a>
+                            </div>
+                            <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh
+                                    green
+                                    chilis</a></p>
+                            <p class="product_price">
+                                <del>$34</del><span>$28<small>/piece</small></span>
+                            </p>
+                            <button class="btn btn-white btn-add"><i
+                                    class="fas fa-shopping-basket"></i><span>Add</span></button>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                        <div class="product__card-media">
+                            <div class="product-label"><label class="label-text sale">Sale</label></div>
+                            <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                            <a class="product-image" href="#"><img src="./images/product/17.jpg" alt="pr 17"></a>
+                            <div class="product-widget">
+                                <a href="#" title="Product Compare" class="fas fa-random"></a>
+                                <a href="#" title="Product Video" class="fas fa-play"></a>
+                                <a href="#" title="Product View" class="fas fa-eye"></a>
+                            </div>
+                        </div>
+                        <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                            <div class="pr_rating">
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <a class="text-deco--none" href="">(3)</a>
+                            </div>
+                            <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh
+                                    green
+                                    chilis</a></p>
+                            <p class="product_price">
+                                <del>$34</del><span>$28<small>/piece</small></span>
+                            </p>
+                            <button class="btn btn-white btn-add"><i
+                                    class="fas fa-shopping-basket"></i><span>Add</span></button>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                        <div class="product__card-media">
+                            <div class="product-label"><label class="label-text sale">Sale</label></div>
+                            <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                            <a class="product-image" href="#"><img src="./images/product/18.jpg" alt="pr 18"></a>
+                            <div class="product-widget">
+                                <a href="#" title="Product Compare" class="fas fa-random"></a>
+                                <a href="#" title="Product Video" class="fas fa-play"></a>
+                                <a href="#" title="Product View" class="fas fa-eye"></a>
+                            </div>
+                        </div>
+                        <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                            <div class="pr_rating">
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <a class="text-deco--none" href="">(3)</a>
+                            </div>
+                            <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh
+                                    green
+                                    chilis</a></p>
+                            <p class="product_price">
+                                <del>$34</del><span>$28<small>/piece</small></span>
+                            </p>
+                            <button class="btn btn-white btn-add"><i
+                                    class="fas fa-shopping-basket"></i><span>Add</span></button>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                        <div class="product__card-media">
+                            <div class="product-label"><label class="label-text sale">Sale</label></div>
+                            <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                            <a class="product-image" href="#"><img src="./images/product/19.jpg" alt="pr 19"></a>
+                            <div class="product-widget">
+                                <a href="#" title="Product Compare" class="fas fa-random"></a>
+                                <a href="#" title="Product Video" class="fas fa-play"></a>
+                                <a href="#" title="Product View" class="fas fa-eye"></a>
+                            </div>
+                        </div>
+                        <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                            <div class="pr_rating">
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <a class="text-deco--none" href="">(3)</a>
+                            </div>
+                            <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh
+                                    green
+                                    chilis</a></p>
+                            <p class="product_price">
+                                <del>$34</del><span>$28<small>/piece</small></span>
+                            </p>
+                            <button class="btn btn-white btn-add"><i
+                                    class="fas fa-shopping-basket"></i><span>Add</span></button>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                        <div class="product__card-media">
+                            <div class="product-label"><label class="label-text sale">Sale</label></div>
+                            <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                            <a class="product-image" href="#"><img src="./images/product/20.jpg" alt="pr 20"></a>
+                            <div class="product-widget">
+                                <a href="#" title="Product Compare" class="fas fa-random"></a>
+                                <a href="#" title="Product Video" class="fas fa-play"></a>
+                                <a href="#" title="Product View" class="fas fa-eye"></a>
+                            </div>
+                        </div>
+                        <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                            <div class="pr_rating">
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <a class="text-deco--none" href="">(3)</a>
+                            </div>
+                            <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh
+                                    green
+                                    chilis</a></p>
+                            <p class="product_price">
+                                <del>$34</del><span>$28<small>/piece</small></span>
+                            </p>
+                            <button class="btn btn-white btn-add"><i
+                                    class="fas fa-shopping-basket"></i><span>Add</span></button>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+            <div class="flex align-center justify-center">
+                <button class="btn btn-white uppercase"><i class="fas fa-eye"></i>show more</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section promo prom-2 container">
+        <div class="promo__img">
+            <a href="#"><img src="./images/promo/home/01.jpg" alt="promo"></a>
+        </div>
+        <div class="promo__img">
+            <a href="#"><img src="./images/promo/home/02.jpg" alt="promo"></a>
+        </div>
+    </section>
+
+    <section class="section recent-item niche-items">
+        <div class="container">
+            <div>
+                <h2 class="section-title text-center capitalize">Browse By Top Niche</h2>
+            </div>
+            <div>
+                <ul role="list" class="niche-nav">
+                    <li><a href="#" class="tab-link active text-deco--none"><i class="icofont-price"></i><span
+                                class="uppercase fw-bold">top
+                                order</span></a></li>
+                    <li><a href="#" class="tab-link text-deco--none"><i class="icofont-star"></i><span
+                                class="uppercase fw-bold">top
+                                rating</span></a></li>
+                    <li><a href="#" class="tab-link text-deco--none"><i class="icofont-sale-discount"></i><span
+                                class="uppercase fw-bold">top
+                                discount</span></a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="product">
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text order">300</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/01.jpg" alt="pr 1"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text order">310</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/02.jpg" alt="pr 2"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text order">320</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/03.jpg" alt="pr 3"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text order">330</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/04.jpg" alt="pr 4"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text order">340</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/05.jpg" alt="pr 5"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text order">360</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/06.jpg" alt="pr 6"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div
+                    class=" product__card product__card--disable flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text order">390</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/07.jpg" alt="pr 7"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text order">400</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/08.jpg" alt="pr 8"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text order">423</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/09.jpg" alt="pr 9"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+                <div class=" product__card flex-coloumn flow-content align-center justify-center">
+                    <div class="product__card-media">
+                        <div class="product-label"><label class="label-text order">460</label></div>
+                        <button class="product-wish wish"><i class="fas fa-heart"></i></button>
+                        <a class="product-image" href="#"><img src="./images/product/10.jpg" alt="pr 10"></a>
+
+                        <div class="product-widget">
+                            <a href="#" title="Product Compare" class="fas fa-random"></a>
+                            <a href="#" title="Product Video" class="fas fa-play"></a>
+                            <a href="#" title="Product View" class="fas fa-eye"></a>
+                        </div>
+                    </div>
+                    <div class="product__card-desc flex-coloumn align-center flow-content flow-content--small ">
+                        <div class="pr_rating">
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="active icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <i class="icofont-star"></i>
+                            <a class="text-deco--none" href="">(3)</a>
+                        </div>
+                        <p class="product_name capitalize text-center"><a class="text-deco--none " href="#">fresh green
+                                chilis</a></p>
+                        <p class="product_price">
+                            <del>$34</del><span>$28<small>/piece</small></span>
+                        </p>
+                        <button class="btn btn-white btn-add"><i
+                                class="fas fa-shopping-basket"></i><span>Add</span></button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex align-center justify-center">
+                <button class="btn btn-white uppercase"><i class="fas fa-eye"></i>show more</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section brands">
+        <div class="container">
+            <div>
+                <h2 class="section-title text-center capitalize">Shop By Brands</h2>
+            </div>
+            <ul role="list" class="brand-slider slider-side-arrow">
+                <li class="brand__item">
+                    <div class="brand__item-media">
+                        <img src="./images/brand/01.jpg" alt="brand 1">
+                        <div class="brand__item-media--overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="brand__item-meta">
+                        <h3 class="capitalize">natural greeny</h3>
+                        <p>(45 items)</p>
+                    </div>
+                </li>
+
+                <li class="brand__item">
+                    <div class="brand__item-media">
+                        <img src="./images/brand/02.jpg" alt="brand 2">
+                        <div class="brand__item-media--overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="brand__item-meta">
+                        <h3 class="capitalize">vegan lover</h3>
+                        <p>(45 items)</p>
+                    </div>
+                </li>
+
+                <li class="brand__item">
+                    <div class="brand__item-media">
+                        <img src="./images/brand/03.jpg" alt="brand 3">
+                        <div class="brand__item-media--overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="brand__item-meta">
+                        <h3 class="capitalize">Organic Foody</h3>
+                        <p>(45 items)</p>
+                    </div>
+                </li>
+
+                <li class="brand__item">
+                    <div class="brand__item-media">
+                        <img src="./images/brand/04.jpg" alt="brand 4">
+                        <div class="brand__item-media--overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="brand__item-meta">
+                        <h3 class="capitalize">ecomart limited</h3>
+                        <p>(45 items)</p>
+                    </div>
+                </li>
+
+                <li class="brand__item">
+                    <div class="brand__item-media">
+                        <img src="./images/brand/05.jpg" alt="brand 5">
+                        <div class="brand__item-media--overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="brand__item-meta">
+                        <h3 class="capitalize">fresh fortune</h3>
+                        <p>(45 items)</p>
+                    </div>
+                </li>
+
+                <li class="brand__item">
+                    <div class="brand__item-media">
+                        <img src="./images/brand/06.jpg" alt="brand 6">
+                        <div class="brand__item-media--overlay">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="brand__item-meta">
+                        <h3 class="capitalize">econature</h3>
+                        <p>(45 items)</p>
+                    </div>
+                </li>
+
+            </ul>
+            <div class="flex align-center justify-center">
+                <button class="btn btn-white uppercase"><i class="fas fa-eye"></i>view all brands</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section testimonials">
+        <div class="container">
+            <div>
+                <h2 class="section-title text-center capitalize">client's feedback</h2>
+            </div>
+
+            <div class="testimonial-slider slider-side-arrow">
+
+                <div class="testimonial__item">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="testimonial__item-desc">Lorem ipsum dolor consectetur adipisicing elit neque earum
+                        sapiente vitae obcaecati
+                        magnam doloribus magni provident ipsam</p>
+                    <p class="testimonial__item-name capitalize fw-bold">mahmud hasan</p>
+                    <ul>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                    </ul>
+                    <img src="./images/avatar/01.jpg" alt="testimonial 1">
+                </div>
+
+                <div class="testimonial__item">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="testimonial__item-desc">Lorem ipsum dolor consectetur adipisicing elit neque earum
+                        sapiente vitae obcaecati
+                        magnam doloribus magni provident ipsam</p>
+                    <p class="testimonial__item-name capitalize fw-bold">mahmud hasan</p>
+                    <ul>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                    </ul>
+                    <img src="./images/avatar/02.jpg" alt="testimonial 2">
+                </div>
+
+                <div class="testimonial__item">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="testimonial__item-desc">Lorem ipsum dolor consectetur adipisicing elit neque earum
+                        sapiente vitae obcaecati
+                        magnam doloribus magni provident ipsam</p>
+                    <p class="testimonial__item-name capitalize fw-bold">mahmud hasan</p>
+                    <ul>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                    </ul>
+                    <img src="./images/avatar/04.jpg" alt="testimonial 4">
+                </div>
+
+                <div class="testimonial__item">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="testimonial__item-desc">Lorem ipsum dolor consectetur adipisicing elit neque earum
+                        sapiente vitae obcaecati
+                        magnam doloribus magni provident ipsam</p>
+                    <p class="testimonial__item-name capitalize fw-bold">mahmud hasan</p>
+                    <ul>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                        <li class="fas fa-star"></li>
+                    </ul>
+                    <img src="./images/avatar/03.jpg" alt="testimonial 3">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section blogs">
+        <div class="container">
+            <div>
+                <h2 class="section-title text-center capitalize">Read our articles</h2>
+            </div>
+
+            <div class="blog-slider slider-side-arrow">
+
+                <div class="blog__item">
+                    <div class="blog__item-media">
+                        <a href="#" class="blog-img"><img src="./images/blog/01.jpg" alt="blog 1"></a>
+                    </div>
+                    <div class="blog__item-desc">
+                        <ul class="blog-meta" role="list">
+                            <li><i class="fas fa-user"></i><span class="uppercase">admin</span></li>
+                            <li><i class="fas fa-calendar-alt"></i><span class="uppercase">September 29, 2022</span>
+                            </li>
+                        </ul>
+                        <h3 class="blog-title"><a href="#" class="text-deco--none">Voluptate blanditiis provident Lorem
+                                ipsum dolor sit amet</a></h3>
+                        <p class="blog-title--desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
+                            autem recusandae deleniti nam dignissimos sequi ...</p>
+                        <a href="#" class="blog-btn text-deco--none"><span>read more</span><i
+                                class="icofont-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__item-media">
+                        <a href="#" class="blog-img"><img src="./images/blog/02.jpg" alt="blog 2"></a>
+                    </div>
+                    <div class="blog__item-desc">
+                        <ul class="blog-meta" role="list">
+                            <li><i class="fas fa-user"></i><span class="uppercase">admin</span></li>
+                            <li><i class="fas fa-calendar-alt"></i><span class="uppercase">September 29, 2022</span>
+                            </li>
+                        </ul>
+                        <h3 class="blog-title"><a href="#" class="text-deco--none">Voluptate blanditiis provident Lorem
+                                ipsum dolor sit amet</a></h3>
+                        <p class="blog-title--desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
+                            autem recusandae deleniti nam dignissimos sequi ...</p>
+                        <a href="#" class="blog-btn text-deco--none"><span>read more</span><i
+                                class="icofont-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__item-media">
+                        <a href="#" class="blog-img"><img src="./images/blog/03.jpg" alt="blog 3"></a>
+                    </div>
+                    <div class="blog__item-desc">
+                        <ul class="blog-meta" role="list">
+                            <li><i class="fas fa-user"></i><span class="uppercase">admin</span></li>
+                            <li><i class="fas fa-calendar-alt"></i><span class="uppercase">September 29, 2022</span>
+                            </li>
+                        </ul>
+                        <h3 class="blog-title"><a href="#" class="text-deco--none">Voluptate blanditiis provident Lorem
+                                ipsum dolor sit amet</a></h3>
+                        <p class="blog-title--desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
+                            autem recusandae deleniti nam dignissimos sequi ...</p>
+                        <a href="#" class="blog-btn text-deco--none"><span>read more</span><i
+                                class="icofont-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__item-media">
+                        <a href="#" class="blog-img"><img src="./images/blog/04.jpg" alt="blog 4"></a>
+                    </div>
+                    <div class="blog__item-desc">
+                        <ul class="blog-meta" role="list">
+                            <li><i class="fas fa-user"></i><span class="uppercase">admin</span></li>
+                            <li><i class="fas fa-calendar-alt"></i><span class="uppercase">September 29, 2022</span>
+                            </li>
+                        </ul>
+                        <h3 class="blog-title"><a href="#" class="text-deco--none">Voluptate blanditiis provident Lorem
+                                ipsum dolor sit amet</a></h3>
+                        <p class="blog-title--desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
+                            autem recusandae deleniti nam dignissimos sequi ...</p>
+                        <a href="#" class="blog-btn text-deco--none"><span>read more</span><i
+                                class="icofont-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog__item">
+                    <div class="blog__item-media">
+                        <a href="#" class="blog-img"><img src="./images/blog/05.jpg" alt="blog 5"></a>
+                    </div>
+                    <div class="blog__item-desc">
+                        <ul class="blog-meta" role="list">
+                            <li><i class="fas fa-user"></i><span class="uppercase">admin</span></li>
+                            <li><i class="fas fa-calendar-alt"></i><span class="uppercase">September 29, 2022</span>
+                            </li>
+                        </ul>
+                        <h3 class="blog-title"><a href="#" class="text-deco--none">Voluptate blanditiis provident Lorem
+                                ipsum dolor sit amet</a></h3>
+                        <p class="blog-title--desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
+                            autem recusandae deleniti nam dignissimos sequi ...</p>
+                        <a href="#" class="blog-btn text-deco--none"><span>read more</span><i
+                                class="icofont-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section cta">
+        <div class="container">
+            <div class="cta__desc">
+                <h2 class="section-title capitalize">Get 20% Discount for Subscribers</h2>
+                <p>Lorem ipsum dolor consectetur adipisicing accusantium</p>
+            </div>
+            <div class="cta__subscribe">
+                <form action="" class="cta__form">
+                    <input type="email" placeholder="Enter Your Email Address">
+                    <button class="btn"><span><i class="icofont-ui-email"></i>Subscribe</span></button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section greeny-special-fetures">
+        <div class="container">
+            <div class="grenny-sp__item">
+                <div class="grenny-sp__item-icon"><i class="fas fa-truck"></i></div>
+                <div class="grenny-sp__item-content">
+                    <h3 class="capitalize">free home delivery</h3>
+                    <p>Lorem ipsum dolor sit amet adipisicing elit nobis.</p>
+                </div>
+            </div>
+
+            <div class="grenny-sp__item">
+                <div class="grenny-sp__item-icon"><i class="fas fa-sync-alt"></i></div>
+                <div class="grenny-sp__item-content">
+                    <h3 class="capitalize">instant return policy</h3>
+                    <p>Lorem ipsum dolor sit amet adipisicing elit nobis.</p>
+                </div>
+            </div>
+
+            <div class="grenny-sp__item">
+                <div class="grenny-sp__item-icon"><i class="fas fa-headset"></i></div>
+                <div class="grenny-sp__item-content">
+                    <h3 class="capitalize">quick support system</h3>
+                    <p>Lorem ipsum dolor sit amet adipisicing elit nobis.</p>
+                </div>
+            </div>
+
+            <div class="grenny-sp__item">
+                <div class="grenny-sp__item-icon"><i class="fas fa-lock"></i></div>
+                <div class="grenny-sp__item-content">
+                    <h3 class="capitalize">secure payment way</h3>
+                    <p>Lorem ipsum dolor sit amet adipisicing elit nobis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer section">
+        <div class="container">
+
+            <div class="footer-main">
+
+                <div class="footer__about">
+                    <a href="#" class="footer__about-logo"><img src="./images/logo.png" alt="logo"></a>
+                    <p>Adipisci asperiores ipsum ipsa repellat consequatur repudiandae quisquam
+                        assumenda dolor perspiciatis sit ipsum dolor amet.</p>
+                    <ul role="list" class="footer-socials flex align-center justify-sb">
+                        <li><a class="text-deco--none btn btn-white icofont-facebook" href="#"></a></li>
+                        <li><a class="text-deco--none btn btn-white icofont-twitter" href="#"></a></li>
+                        <li><a class="text-deco--none btn btn-white icofont-linkedin" href="#"></a></li>
+                        <li><a class="text-deco--none btn btn-white icofont-instagram" href="#"></a></li>
+                        <li><a class="text-deco--none btn btn-white icofont-pinterest" href="#"></a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__contactUs">
+                    <h3 class="footer-subHeading capitalize">contact us</h3>
+                    <ul role="list" class="footer__contactUs-info">
+                        <li><i class="icofont-ui-email"></i>
+                            <p><span>support@example.com</span><span>carrer@example.com</span></p>
+                        </li>
+                        <li><i class="icofont-ui-touch-phone"></i>
+                            <p><span>+120 279 532 13</span><span>+120 279 532 14</span></p>
+                        </li>
+                        <li><i class="icofont-location-pin"></i>
+                            <p>1Hd- 50, 010 Avenue, NY 90001 United States</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__quickLinks">
+                    <h3 class="footer-subHeading capitalize">quick Links</h3>
+                    <div class="footer-links">
+                        <ul role="list">
+                            <li><a href="#" class="text-deco--none">My Account</a></li>
+                            <li><a href="#" class="text-deco--none">Order History</a></li>
+                            <li><a href="#" class="text-deco--none">Order Tracking</a></li>
+                            <li><a href="#" class="text-deco--none">Best Seller</a></li>
+                            <li><a href="#" class="text-deco--none">New Arrivals</a></li>
+                        </ul>
+                        <ul role="list">
+                            <li><a href="#" class="text-deco--none">Location</a></li>
+                            <li><a href="#" class="text-deco--none">Affiliates</a></li>
+                            <li><a href="#" class="text-deco--none">Contact</a></li>
+                            <li><a href="#" class="text-deco--none">Carrer</a></li>
+                            <li><a href="#" class="text-deco--none">Faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__download">
+                    <h3 class="footer-subHeading capitalize">Download App</h3>
+                    <p>Lorem ipsum dolor sit amet tenetur dignissimos ipsum eligendi autem obcaecati minus ducimus totam
+                        reprehenderit exercitationem!</p>
+                    <ul role="list" class="footer-socials flex align-center justify-sb">
+                        <li><a class="" href="#"><img src="./images/google-store.png" alt="google Store"></a></li>
+                        <li><a class="" href="#"><img src="./images/app-store.png" alt="Apple Store"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; All Copyrights Reserved by <a href="#">Mironcoder</a></p>
+                <div class="footer_payment_cards">
+                    <a href="#"><img src="./images/payment/jpg/01.jpg" alt="payment 01"></a>
+                    <a href="#"><img src="./images/payment/jpg/02.jpg" alt="payment 02"></a>
+                    <a href="#"><img src="./images/payment/jpg/03.jpg" alt="payment 03"></a>
+                    <a href="#"><img src="./images/payment/jpg/04.jpg" alt="payment 04"></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- scripts stuff -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./vendor/niceselect/nice-select.min.js"></script>
+    <script src="./vendor/slickslider/slick.min.js"></script>
+    <script src="//unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
+
+    <script src="./slick.js"></script>
+    <script src="./app.js"></script>
+    <script src="./app2.js"></script>
+
+    <script>
+
+        // const slider = new A11YSlider(document.querySelector('.slider'), {
+        //     adaptiveHeight: true,
+        //     dots: false
+        // });
+
+
+    </script>
+</body>
+
+</html>

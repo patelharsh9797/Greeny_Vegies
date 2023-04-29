@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <style>
+        .container {
+            width: mix(80%, 1200px);
+            margin: 0 auto;
+        }
+
+        .container li {
+            position: relative;
+        }
+
+        .suggest-card {
+            text-decoration: none;
+            position: relative;
+            font-size: 18px;
+        }
+
+        .suggest-card img {
+            position: relative;
+        }
+
+        .suggest-card img::after {
+            position: absolute;
+            display: block;
+            content: "";
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .suggest-card img:hover::after {
+            /* background-color: green; */
+            opacity: 0;
+        }
+
+        .suggest-card h5 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            font-size: 18px;
+            color: aliceblue;
+            /* width: 100%; */
+            text-align: center;
+            transform: translate(10, 0);
+        }
+
+        .suggest-card h5 span {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="section suggest-part">
+        <div class="container">
+            <ul class="suggest-slider slider-arrow">
+                <li><a class="suggest-card" href="shop-4column.html"><img src="images/suggest/01.jpg" alt="suggest">
+                        <h5>vegetables <span>34 items</span></h5>
+                    </a></li>
+                <li><a class="suggest-card" href="shop-4column.html"><img src="images/suggest/02.jpg" alt="suggest">
+                        <h5>fruits <span>89 items</span></h5>
+                    </a></li>
+                <li><a class="suggest-card" href="shop-4column.html"><img src="images/suggest/03.jpg" alt="suggest">
+                        <h5>groceries <span>45 items</span></h5>
+                    </a></li>
+                <li><a class="suggest-card" href="shop-4column.html"><img src="images/suggest/04.jpg" alt="suggest">
+                        <h5>dairy farm <span>83 items</span></h5>
+                    </a></li>
+                <li><a class="suggest-card" href="shop-4column.html"><img src="images/suggest/05.jpg" alt="suggest">
+                        <h5>sea foods <span>40 items</span></h5>
+                    </a></li>
+                <li><a class="suggest-card" href="shop-4column.html"><img src="images/suggest/06.jpg" alt="suggest">
+                        <h5>vegan foods <span>57 items</span></h5>
+                    </a></li>
+                <li><a class="suggest-card" href="shop-4column.html"><img src="images/suggest/07.jpg" alt="suggest">
+                        <h5>dry foods <span>23 items</span></h5>
+                    </a></li>
+                <li><a class="suggest-card" href="shop-4column.html"><img src="images/suggest/08.jpg" alt="suggest">
+                        <h5>fast foods <span>97 items</span></h5>
+                    </a></li>
+            </ul>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./vendor/slickslider/slick.min.js"></script>
+
+    <script>
+        $(".suggest-slider").slick({
+            dots: !1,
+            infinite: !0,
+            autoplay: !0,
+            arrows: !0,
+            speed: 1e3,
+            prevArrow: '<i class="icofont-arrow-right dandik"></i>',
+            nextArrow: '<i class="icofont-arrow-left bamdik"></i>',
+            slidesToShow: 5,
+            slidesToScroll: 2,
+            responsive: [
+                { breakpoint: 1200, settings: { slidesToShow: 4, slidesToScroll: 4 } },
+                { breakpoint: 992, settings: { slidesToShow: 3, slidesToScroll: 3 } },
+                { breakpoint: 768, settings: { slidesToShow: 2, slidesToScroll: 2 } },
+                {
+                    breakpoint: 576,
+                    settings: { slidesToShow: 2, slidesToScroll: 2, arrows: !1 },
+                },
+            ],
+        })
+    </script>
+</body>
+
+</html>
