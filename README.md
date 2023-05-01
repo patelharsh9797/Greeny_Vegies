@@ -1,4 +1,5 @@
 # Greeny_Vegies
-ddfssd
+
+Simple website witg Html, Css, JS, jQuery
 
 preview : [https://greeny-vegies.vercel.app/](https://greeny-vegies.vercel.app/)
